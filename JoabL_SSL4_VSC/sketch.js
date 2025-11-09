@@ -19,7 +19,7 @@ NOTES:
 */
 
 let serial;
-let portName = '/dev/tty.usbserial-110';
+let portName = '/dev/tty.usbserial-10';
 let options = { baudRate: 9600 };
 let sensors = [0, 0, 0, 0]; // [button1, button2, pot1, pot2]
 
